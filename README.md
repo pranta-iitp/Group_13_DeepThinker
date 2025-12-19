@@ -21,7 +21,7 @@ Objective
 ## Architecture
 
 ```
-      <img src="img_hack.jpeg" width="600"/>
+      https://github.com/pranta-iitp/Group_13_DeepThinker/blob/main/img_hack.jpeg
 
 ```
 
