@@ -2,8 +2,6 @@
 
 # 🧠 Mini RAG-Powered Assistant
 
-*A Retrieval-Augmented Generation Project*
-
 ## 📌 Overview
 
 This project implements a **Mini RAG (Retrieval-Augmented Generation) Assistant** capable of answering user queries based on a **custom document corpus**.
