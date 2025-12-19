@@ -127,7 +127,7 @@ This project demonstrates understanding of:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/mini-rag-assistant.git
+git clone https://github.com/pranta-iitp/Group_13_DeepThinker.git
 cd mini-rag-assistant
 ```
 
