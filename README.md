@@ -21,7 +21,7 @@ Objective
 ## Architecture
 
 ```
-        ![Hack Image](/img_hack.jpeg)
+      <img src="img_hack.jpeg" width="600"/>
 
 ```
 
