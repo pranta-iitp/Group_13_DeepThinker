@@ -104,7 +104,7 @@ Objective
 * Lower computational cost compared to large decoder-only LLMs
 * Suitable for question answering and text generation tasks
 
-### **Role in the System**
+**Role in the System**
 
 * Generates final answers using retrieved folktale context
 * Ensures responses remain grounded and relevant
@@ -115,30 +115,30 @@ Objective
 
 **Model:** `all-MiniLM-L6-v2`
 
-## **Why Used**
+**Why Used**
 
 * Produces high-quality semantic embeddings
 * Captures meaning beyond keyword matching
 * Fast and efficient on CPU
 * Widely adopted for semantic search applications
 
-## **Role in the System**
+**Role in the System**
 
 * Converts folktale text chunks and user queries into vector embeddings
 * Enables semantic similarity search
 
 ---
 
-## **FAISS (Vector Database)**
+### **FAISS (Vector Database)**
 
-## **Why Used**
+**Why Used**
 
 * Optimized for fast similarity search over dense vectors
 * Lightweight and open-source
 * Works efficiently without cloud dependency
 * Scales well for medium-sized document collections
 
-## **Role in the System**
+**Role in the System**
 
 * Stores document embeddings
 * Retrieves top-K relevant folktale chunks for a given query
