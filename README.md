@@ -208,36 +208,3 @@ Learned building a minimal API to handle:
 
 **Problem:** Poor chunking → irrelevant search results
 **Fix:** Used overlapping window technique for better context retention.
-
-### **2. Embedding Cost / Speed**
-
-**Fix:** Switched to compact models like MiniLM or `text-embedding-small`.
-
-### **3. FAISS Index Not Loading Correctly**
-
-**Fix:** Stored index + metadata separately and validated dimensions.
-
-### **4. Cloud Deployment Errors**
-
-**Fix:** Updated Node.js version & added correct environment variables in Azure portal.
-
----
-
-## 📄 Future Improvements
-
-* Add caching layer for faster responses
-* Add authentication
-* Add chat history memory
-* Deploy vector store to Pinecone / Azure Cognitive Search
-* Convert UI into full React app
-
----
-
-## 🙌 Acknowledgements
-
-* OpenAI / Azure OpenAI
-* HuggingFace sentence-transformers
-* FAISS / Pinecone
-* Node.js community
-
----
