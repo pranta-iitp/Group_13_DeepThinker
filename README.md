@@ -7,15 +7,14 @@
 This project implements a **Mini RAG (Retrieval-Augmented Generation) Assistant** capable of answering user queries based on a **custom knowledge base of Indian folktales**.
 The assistant uses **embeddings**, a **vector database**, and an **LLM** to retrieve relevant context and generate accurate, grounded responses. This approach significantly reduces hallucination and improves factual and contextual accuracy.
 
-This project demonstrates understanding of:
+Objective
 
-* GenAI fundamentals
-* RAG pipeline
-* Embedding generation
-* Vector search
-* Cloud deployment (Azure preferred)
-* Node.js integration
-* GitHub-based workflow
+* Design and implement an end-to-end RAG pipeline
+* Use Sentence Transformers for semantic embeddings
+* Use FAISS as a vector database for similarity search
+* Use FLAN-T5 for grounded answer generation
+* Demonstrate understanding of GenAI system architecture
+* Cloud Deployment
 
 ---
 
