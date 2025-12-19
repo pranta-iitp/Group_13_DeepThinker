@@ -94,9 +94,59 @@ Objective
 
 ### Tech Stack
 
-* Node.js (API + frontend)
-* Express.js (optional)
-* HTML/JS frontend (optional minimal UI)
+* FLAN-T5 (LLM)
+
+Why used:
+
+Instruction-tuned encoder–decoder model
+
+Performs well when provided with external context
+
+Lower computational cost compared to large decoder-only LLMs
+
+Suitable for question answering and text generation tasks
+
+Role in the system:
+
+Generates final answers using retrieved folktale context
+
+Ensures responses remain grounded and relevant
+* Sentence Transformers
+
+Model: all-MiniLM-L6-v2
+
+Why used:
+
+Produces high-quality semantic embeddings
+
+Captures meaning beyond keyword matching
+
+Fast and efficient on CPU
+
+Widely adopted for semantic search applications
+
+Role in the system:
+
+Converts folktale text chunks and user queries into vector embeddings
+
+Enables semantic similarity search
+* FAISS (Vector Database)
+
+Why used:
+
+Optimized for fast similarity search over dense vectors
+
+Lightweight and open-source
+
+Works efficiently without cloud dependency
+
+Scales well for medium-sized document collections
+
+Role in the system:
+
+Stores document embeddings
+
+Retrieves top-K relevant folktale chunks for a given query
 
 ---
 
