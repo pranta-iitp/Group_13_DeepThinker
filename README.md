@@ -69,19 +69,11 @@ This project demonstrates understanding of:
 
 ## 🔍 2. Embeddings & Vector Store
 
-### Embedding Model Used
-
-* OpenAI embeddings (`text-embedding-3-small`)
-  *or HuggingFace alternatives like `all-MiniLM-L6-v2`.*
+### Embedding Model Used: google/flan-t5-base
 
 ### Vector Database
 
 * **FAISS** (local, lightweight, fast)
-* Stored:
-
-  * Chunk text
-  * Embedding vectors
-  * Metadata (document ID, chunk index)
 
 ---
 
