@@ -1,8 +1,8 @@
 # Group_13_DeepThinker
 
-# 🧠 Mini RAG-Powered Assistant
+# Mini RAG-Powered Assistant
 
-## 📌 Overview
+## Overview
 
 This project implements a **Mini RAG (Retrieval-Augmented Generation) Assistant** capable of answering user queries based on a **custom knowledge base of Indian folktales**.
 The assistant uses **embeddings**, a **vector database**, and an **LLM** to retrieve relevant context and generate accurate, grounded responses. This approach significantly reduces hallucination and improves factual and contextual accuracy.
@@ -18,7 +18,7 @@ Objective
 
 ---
 
-## 🚀 Architecture
+## Architecture
 
 ```
           ┌──────────────────────┐
@@ -55,7 +55,7 @@ Objective
 
 ---
 
-## 🗂️ 1. Corpus Preparation
+## 1. Corpus Preparation
 
 * Selected **3–5 documents** (PDFs, technical articles, sample internal docs).
 * Performed:
@@ -78,7 +78,7 @@ Objective
 
 ---
 
-## ❓ 3. Query Handling Flow
+## 3. Query Handling Flow
 
 ### User Query (Node.js frontend)
 
@@ -92,7 +92,7 @@ Objective
 4. Pass context + user prompt → LLM
 5. LLM generates final grounded answer
 
-## Tech Stack
+## 4.Tech Stack
 
 
 ### **FLAN-T5 (LLM)**
