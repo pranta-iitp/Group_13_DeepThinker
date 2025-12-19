@@ -95,9 +95,9 @@ Objective
 ### Tech Stack
 
 
-## **FLAN-T5 (LLM)**
+**FLAN-T5 (LLM)**
 
-## **Why Used**
+**Why Used**
 
 * Instruction-tuned encoder–decoder model
 * Performs well when provided with external context
