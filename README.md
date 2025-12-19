@@ -126,4 +126,11 @@ https://drive.google.com/file/d/150rvfHeXgIarrU9GO3QHxkHOzkFgCiKb/view?usp=shari
 * Stores document embeddings
 * Retrieves top-K relevant folktale chunks for a given query
 
+## 6.Evaluation
+* We used BERTScore F1 for evaluation the model.
+* We created an excel file contaning questions, groud_truth(manual annotation) and generated_answer.
+* BERTScore was calculated between generated answer and groud_truth
+* We got around 78% accuracy.
+  
+
 ---
