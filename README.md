@@ -70,7 +70,18 @@ Objective
 
 ---
 
-## 2. Embeddings & Vector Store
+## 2.Embedding Layer
+
+* Model Used: sentence-transformers/all-MiniLM-L6-v2
+* Why embeddings are required:
+  * Converts text into dense semantic vectors
+  * Enables meaning-based retrieval instead of keyword matching
+  * Improves recall for paraphrased user queries
+  * Process:
+    * Each text chunk → embedding vector
+    * Each user query → embedding vector
+
+## 3. Embeddings & Vector Store
 
 ### Embedding Model Used: 
 
@@ -82,7 +93,7 @@ Objective
 
 ---
 
-## 3. Query Handling Flow
+## 4. Query Handling Flow
 
 ### User Query (Node.js frontend)
 
@@ -96,7 +107,7 @@ Objective
 4. Pass context + user prompt → LLM
 5. LLM generates final grounded answer
 
-## 4.Tech Stack
+## 5.Tech Stack
 
 
 ### **FLAN-T5 (LLM)**
@@ -146,14 +157,5 @@ Objective
 
 * Stores document embeddings
 * Retrieves top-K relevant folktale chunks for a given query
-
-
-
-## ☁️ 4. Cloud Deployment
-
-* Deploy backend on **Azure App Service / Azure Container Apps**
-* Store vector DB locally or on cloud storage
-* Use **GitHub** for version control
-* Optionally integrate **GitHub Copilot** for faster development
 
 ---
