@@ -94,59 +94,62 @@ Objective
 
 ### Tech Stack
 
-* FLAN-T5 (LLM)
+Here is the content converted into clean, structured **Markdown (README-ready)**:
 
-Why used:
+---
 
-Instruction-tuned encoder–decoder model
+## **FLAN-T5 (LLM)**
 
-Performs well when provided with external context
+### **Why Used**
 
-Lower computational cost compared to large decoder-only LLMs
+* Instruction-tuned encoder–decoder model
+* Performs well when provided with external context
+* Lower computational cost compared to large decoder-only LLMs
+* Suitable for question answering and text generation tasks
 
-Suitable for question answering and text generation tasks
+### **Role in the System**
 
-Role in the system:
+* Generates final answers using retrieved folktale context
+* Ensures responses remain grounded and relevant
 
-Generates final answers using retrieved folktale context
+---
 
-Ensures responses remain grounded and relevant
-* Sentence Transformers
+## **Sentence Transformers**
 
-Model: all-MiniLM-L6-v2
+**Model:** `all-MiniLM-L6-v2`
 
-Why used:
+### **Why Used**
 
-Produces high-quality semantic embeddings
+* Produces high-quality semantic embeddings
+* Captures meaning beyond keyword matching
+* Fast and efficient on CPU
+* Widely adopted for semantic search applications
 
-Captures meaning beyond keyword matching
+### **Role in the System**
 
-Fast and efficient on CPU
+* Converts folktale text chunks and user queries into vector embeddings
+* Enables semantic similarity search
 
-Widely adopted for semantic search applications
+---
 
-Role in the system:
+## **FAISS (Vector Database)**
 
-Converts folktale text chunks and user queries into vector embeddings
+### **Why Used**
 
-Enables semantic similarity search
-* FAISS (Vector Database)
+* Optimized for fast similarity search over dense vectors
+* Lightweight and open-source
+* Works efficiently without cloud dependency
+* Scales well for medium-sized document collections
 
-Why used:
+### **Role in the System**
 
-Optimized for fast similarity search over dense vectors
+* Stores document embeddings
+* Retrieves top-K relevant folktale chunks for a given query
 
-Lightweight and open-source
+---
 
-Works efficiently without cloud dependency
+If you want, I can also merge this into your README or convert it into a table format.
 
-Scales well for medium-sized document collections
-
-Role in the system:
-
-Stores document embeddings
-
-Retrieves top-K relevant folktale chunks for a given query
 
 ---
 
