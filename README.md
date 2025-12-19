@@ -21,8 +21,7 @@ Objective
 ## Architecture
 
 ```
-
-![RAG System Architecture](img_hack.jpeg)
+https://drive.google.com/file/d/150rvfHeXgIarrU9GO3QHxkHOzkFgCiKb/view?usp=sharing
 
 
 ```
