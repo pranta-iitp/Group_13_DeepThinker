@@ -21,11 +21,7 @@ Objective
 ## Architecture
 
 ```
-
-<p align="center">
-  <img src="img_hack.jpeg" width="400">
-</p>
-
+![Architecture](./img_hack.jpeg)
 
 ```
 
