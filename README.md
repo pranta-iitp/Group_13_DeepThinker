@@ -21,12 +21,7 @@ Objective
 ## Architecture
 
 ```
-## Architecture
-
-<img src="img_hack.jpeg" alt="Architecture Diagram" width="600">
-
----
-
+https://drive.google.com/file/d/150rvfHeXgIarrU9GO3QHxkHOzkFgCiKb/view?usp=sharing
 
 ```
 
