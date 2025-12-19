@@ -21,7 +21,7 @@ Objective
 ## Architecture
 
 ```
-        ![Alt text](img_hack.jpeg)
+        ![Alt text](/img_hack.jpeg)
 
 ```
 
