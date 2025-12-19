@@ -69,7 +69,9 @@ This project demonstrates understanding of:
 
 ## 🔍 2. Embeddings & Vector Store
 
-### Embedding Model Used: google/flan-t5-base
+### Embedding Model Used: 
+
+* **google/flan-t5-base**
 
 ### Vector Database
 
