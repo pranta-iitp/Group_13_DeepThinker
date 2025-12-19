@@ -22,7 +22,7 @@ Objective
 
 ```
 
-![Diagram](img_hack.jpeg)
+![RAG System Architecture](img_hack.jpeg)
 
 
 ```
