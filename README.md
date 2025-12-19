@@ -5,7 +5,7 @@
 ## 📌 Overview
 
 This project implements a **Mini RAG (Retrieval-Augmented Generation) Assistant** capable of answering user queries based on a **custom knowledge base of Indian folktales**.
-The assistant uses **embeddings**, a **vector database**, and an **LLM** to retrieve relevant context and generate accurate, grounded responses.
+The assistant uses **embeddings**, a **vector database**, and an **LLM** to retrieve relevant context and generate accurate, grounded responses. This approach significantly reduces hallucination and improves factual and contextual accuracy.
 
 This project demonstrates understanding of:
 
