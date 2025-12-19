@@ -92,10 +92,10 @@ Objective
 4. Pass context + user prompt → LLM
 5. LLM generates final grounded answer
 
-### Tech Stack
+## Tech Stack
 
 
-**FLAN-T5 (LLM)**
+### **FLAN-T5 (LLM)**
 
 **Why Used**
 
@@ -104,14 +104,14 @@ Objective
 * Lower computational cost compared to large decoder-only LLMs
 * Suitable for question answering and text generation tasks
 
-## **Role in the System**
+### **Role in the System**
 
 * Generates final answers using retrieved folktale context
 * Ensures responses remain grounded and relevant
 
 ---
 
-## **Sentence Transformers**
+### **Sentence Transformers**
 
 **Model:** `all-MiniLM-L6-v2`
 
@@ -158,102 +158,3 @@ If you want, I can also merge this into your README or convert it into a table f
 * Optionally integrate **GitHub Copilot** for faster development
 
 ---
-
-## 🛠️ Setup Instructions
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/pranta-iitp/Group_13_DeepThinker.git
-cd mini-rag-assistant
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Environment Variables
-
-Create a `.env` file:
-
-```
-OPENAI_API_KEY=your_key_here
-PORT=3000
-```
-
-### 4️⃣ Build Embeddings
-
-```bash
-node scripts/embed.js
-```
-
-### 5️⃣ Run the App
-
-```bash
-node server.js
-```
-
-### 6️⃣ Access UI
-
-```
-http://localhost:3000
-```
-
----
-
-## 📦 Folder Structure
-
-```
-📁 mini-rag-assistant
-│── 📁 data/               # Raw documents
-│── 📁 chunks/             # Preprocessed & chunked data
-│── 📁 vectorstore/        # FAISS or Pinecone index
-│── 📁 scripts/            # ETL scripts (chunking, embedding)
-│── server.js              # Node.js backend
-│── index.html             # Basic UI (optional)
-│── README.md
-│── .env
-```
-
----
-
-## 📘 Learnings
-
-### ✔ Understanding of RAG Pipeline
-
-Learned how documents → chunks → embeddings → vector search → LLM response are connected.
-
-### ✔ Working with Vector Databases
-
-FAISS/Chroma helped understand:
-
-* similarity search
-* vector indexing
-* retrieval performance
-
-### ✔ Cloud Deployment Experience
-
-Deployed on Azure to practice:
-
-* environment variables
-* scalability
-* CI/CD using GitHub
-
-### ✔ Node.js Integration
-
-Learned building a minimal API to handle:
-
-* queries
-* LLM calls
-* retrieval logic
-
----
-
-## ⚠️ Challenges & Solutions
-
-### **1. Chunking Strategy Issues**
-
-**Problem:** Poor chunking → irrelevant search results
-**Fix:** Used overlapping window technique for better context retention.
