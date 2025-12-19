@@ -1,5 +1,4 @@
 # Group_13_DeepThinker
----
 
 # 🧠 Mini RAG-Powered Assistant
 
