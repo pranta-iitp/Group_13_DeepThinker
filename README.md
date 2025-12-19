@@ -21,36 +21,8 @@ Objective
 ## Architecture
 
 ```
-          ┌──────────────────────┐
-          │   Document Corpus     │
-          │  (PDFs / Articles)    │
-          └─────────┬────────────┘
-                    │
-            Preprocessing & Chunking
-                    │
-          ┌─────────▼──────────┐
-          │   Embedding Model  │
-          │ (OpenAI / HF etc.) │
-          └─────────┬──────────┘
-                    │
-          ┌─────────▼──────────┐
-          │ Vector Store        │
-          │ (FAISS / Pinecone)  │
-          └─────────┬──────────┘
-                    │ Similarity Search
-          ┌─────────▼──────────┐
-          │ Node.js Query Layer │
-          │ (API / Web UI / CLI)│
-          └─────────┬──────────┘
-                    │ Context Passing
-          ┌─────────▼──────────┐
-          │     LLM (Gen AI)   │
-          │ ChatGPT / OpenSource│
-          └─────────┬──────────┘
-                    │
-           ┌────────▼────────┐
-           │ Final Answer     │
-           └──────────────────┘
+        <img width="1037" height="601" alt="image" src="https://github.com/user-attachments/assets/afa21b85-2e0a-4e08-82f2-d7c9fe901fda" />
+
 ```
 
 ---
@@ -94,10 +66,6 @@ Objective
 ---
 
 ## 4. Query Handling Flow
-
-### User Query (Node.js frontend)
-
-* Simple UI or CLI where user types a question.
 
 ### Steps
 
