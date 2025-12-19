@@ -21,7 +21,7 @@ Objective
 ## Architecture
 
 ```
-        <img width="1037" height="601" alt="image" src="https://github.com/user-attachments/assets/afa21b85-2e0a-4e08-82f2-d7c9fe901fda" />
+        ![Alt text](img_hack.jpeg)
 
 ```
 
