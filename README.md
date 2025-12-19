@@ -1,7 +1,4 @@
 # Group_13_DeepThinker
-Here is a clean, professional **README.md** in Markdown format for your **Gen AI Evaluation Project: Mini RAG-Powered Assistant**.
-You can copy–paste directly into your GitHub repository.
-
 ---
 
 # 🧠 Mini RAG-Powered Assistant
