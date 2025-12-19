@@ -109,7 +109,7 @@ Objective
 * Generates final answers using retrieved folktale context
 * Ensures responses remain grounded and relevant
 
----
+
 
 ### **Sentence Transformers**
 
@@ -127,7 +127,7 @@ Objective
 * Converts folktale text chunks and user queries into vector embeddings
 * Enables semantic similarity search
 
----
+
 
 ## **FAISS (Vector Database)**
 
@@ -143,12 +143,7 @@ Objective
 * Stores document embeddings
 * Retrieves top-K relevant folktale chunks for a given query
 
----
 
-If you want, I can also merge this into your README or convert it into a table format.
-
-
----
 
 ## ☁️ 4. Cloud Deployment
 
