@@ -57,12 +57,16 @@ Objective
 
 ## 1. Corpus Preparation
 
-* Selected **3–5 documents** (PDFs, technical articles, sample internal docs).
-* Performed:
+* Purpose: Build a high-quality, domain-specific knowledge base.
+* Collected 3–5 English documents containing Indian folktales
+* Sources include public datasets, story collections, and curated articles
+* Preprocessing steps:
 
-  * Cleaning (removing headers, footers, symbols)
-  * Chunking (using sliding window or fixed chunk size)
-  * Converting text to JSON/Markdown chunks
+* Text normalization
+* Removal of noise and metadata
+* Logical paragraph segmentation
+* Text is chunked into 300–500 token blocks
+* Chunk overlap is applied to preserve story continuity
 
 ---
 
