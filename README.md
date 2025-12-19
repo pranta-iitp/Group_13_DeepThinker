@@ -21,7 +21,9 @@ Objective
 ## Architecture
 
 ```
-![Architecture](./img_hack.jpeg)
+
+![Diagram](./img_hack.jpeg)
+
 
 ```
 
